@@ -1,0 +1,1 @@
+{"dependencies":{"@tauri-apps/plugin-opener":"^2.0.0"},"description":"Weather Everywhere desktop shell (Tauri v2)","devDependencies":{"@tauri-apps/cli":"^2.0.0"},"license":"MIT","name":"weather-everywhere-app","private":true,"scripts":{"tauri":"tauri"},"version":"1.0.0"}

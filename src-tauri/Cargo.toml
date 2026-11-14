@@ -1,0 +1,17 @@
+[package]
+name = "weather-everywhere-app"
+version = "1.0.0"
+description = "Weather Everywhere desktop shell"
+authors = ["Steven Powell"]
+edition = "2021"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+
+[profile.release]
+opt-level = 3
